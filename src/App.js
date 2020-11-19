@@ -5,7 +5,7 @@ import Tools from './tools'
 import About from './about'
 import Footer from './footer'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -18,7 +18,7 @@ function App() {
       <div className="body">
         <div className="content">
           <div className="area-util">
-            <Router>
+            <HashRouter>
               <div>
                 <ul className="menubar">
                   <li>
@@ -42,9 +42,12 @@ function App() {
                 <Route path="/about">
                   <About />
                 </Route>
+                <Route path="*">
+                  <Home />
+                </Route>
               </Switch>
               <Footer />
-            </Router>
+            </HashRouter>
           </div>
         </div>
       </div>
