@@ -19,7 +19,7 @@ body{
 
 .body .content{
   margin: 3rem;
-  background: url("./../images/background.jpg");
+  background: url("./../images/background.jpg") no-repeat;
   width: 100%;
   border-radius: 2rem;
   position: relative;
