@@ -44,7 +44,7 @@ body{
   margin-top: 2rem;
 }
 
-.body .content .area-util p{
+.body .content .area-util p, a, li{
   color: #0B4273;
   margin-top: 2rem;
 }
@@ -52,7 +52,7 @@ body{
 .body .content .area-util .message p{
   font-style: italic;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .body .content .area-util .message .social-media{
@@ -70,14 +70,14 @@ header{
   width:100%;
 }
 
-ul{
+.area-util .menubar{
  list-style-type: none;
  display: flex;
  align-items: center;
  justify-content: space-between;
 }
 
-li a {
+.area-util .menubar li a {
   padding: 10px;
   background: #907D4F;
 
@@ -91,7 +91,7 @@ li a {
   font-weight: bold;
 }
 
-li a:hover{
+.area-util .menubar li a:hover{
   background: #CACEB7;
   border-bottom: solid 4px #907D4F;
   color: #222;

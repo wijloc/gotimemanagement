@@ -3,6 +3,7 @@ import './styles/App.css';
 import Home from './home'
 import Tools from './tools'
 import About from './about'
+import Footer from './footer'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +20,7 @@ function App() {
           <div className="area-util">
             <Router>
               <div>
-                <ul>
+                <ul className="menubar">
                   <li>
                     <Link to="/">Início</Link>
                   </li>
@@ -42,6 +43,7 @@ function App() {
                   <About />
                 </Route>
               </Switch>
+              <Footer />
             </Router>
           </div>
         </div>
