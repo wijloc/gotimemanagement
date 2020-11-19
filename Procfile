@@ -1,1 +1,1 @@
-web: yarn webpack serve --port 80
+web: yarn webpack serve --port $PORT
