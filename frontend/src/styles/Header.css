@@ -1,0 +1,28 @@
+header{
+  width:100%;
+}
+
+ul{
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+li{
+  padding: 10px;
+  background: #907D4F;
+
+  color: #DDD9C4;
+  font-weight: bold;
+
+  opacity: 80%;
+  transition: background 0.3s, color 0.3s;
+  border-bottom: solid 4px #CACEB7;
+}
+
+li:hover{
+  background: #CACEB7;
+  border-bottom: solid 4px #907D4F;
+  color: #222;
+}

@@ -1,10 +1,20 @@
 import React from 'react';
-
-export default function Header({ title }){
+import './../styles/Header.css';
+export default function Header(){
 
   return (
     <header>
-      <h1>{title}</h1>
+      <ul>
+        <li>
+          INÍCIO
+        </li>
+        <li>
+          FERRAMENTAS
+        </li>
+        <li>
+          SOBRE
+        </li>
+      </ul>
     </header>
   );
 }
