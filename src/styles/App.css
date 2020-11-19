@@ -13,6 +13,7 @@
   background: linear-gradient(115.94deg, #B9CADA 4.11%, #EBEDE8 94.63%);
 
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 .body .content{
