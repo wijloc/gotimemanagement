@@ -1,20 +1,25 @@
 import React from 'react';
 import './../styles/Header.css';
-export default function Header(){
+import Tools from './../tools.js';
+import About from './../about.js';
+import App from './../App.js';
 
+export default function Header() {
   return (
-    <header>
-      <ul>
-        <li>
-          INÍCIO
-        </li>
-        <li>
-          FERRAMENTAS
-        </li>
-        <li>
-          SOBRE
-        </li>
-      </ul>
-    </header>
+    <>
+      <div>
+        <ul>
+          <li>
+            <a href="/">Início</a>
+          </li>
+          <li>
+            <a href="/tools">Ferramentas</a>
+          </li>
+          <li>
+            <a href="/about">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </>
   );
 }
